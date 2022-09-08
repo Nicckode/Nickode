@@ -1,19 +1,19 @@
 {
-  "name": "Alex G Portafolio",
-  "short_name": "Alex G",
+  "name": "Nicolás Leal",
+  "short_name": "Nickode",
   "start_url": "/index.html",
-  "display": "standalone",
-  "theme_color": "#DAA520",
-  "background_color": "#DAA520",
+  "display": "standar",
+  "theme_color": "#ffff3",
+  "background_color": "#ffff3",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "img/mimoji-192x192.png",
+      "src": "img/1.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "img/mimoji-512x512.png",
+      "src": "img/1.png",
       "type": "image/png",
       "sizes": "512x512"
     }
