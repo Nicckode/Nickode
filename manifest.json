@@ -1,0 +1,21 @@
+{
+  "name": "Nicolás Leal",
+  "short_name": "Nickode",
+  "start_url": "/index.html",
+  "display": "standar",
+  "theme_color": "#ffff3",
+  "background_color": "#ffff3",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "img/1.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/1.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
