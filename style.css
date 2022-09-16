@@ -217,6 +217,13 @@ body {
   padding:30px;
   height:calc(100% - 60px);
 }
+
+#AchivementsTitle{
+  padding-top: 120px;
+  color: #06cdff;
+  text-align: center;
+  font-weight: bold;
+}
 .tile h1
 {
  
@@ -311,6 +318,9 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 /*============= End Skills Section =============*/
 
 .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   max-width: 80%;
   margin: auto;
   overflow: auto;
@@ -321,28 +331,27 @@ section {
 }
 #cardImg {
   width: 100%;
-  border-radius: 110px;
+  border-radius: 75px;
   transition: 0.5s;
   background-color: rgb(99, 0, 221);
 }
 
 #cardImg:hover {
   width: 100%;
-  border-radius: 150px;
+  border-radius: 120px;
   transition: 1s;
+  background-color: rgba(99, 0, 221, 0.264);
 }
 
 
 
 .card {
-  width: 1000px;
-  height: 300px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  width: 300px;
+  height: 600px;
+  display: table-cell;
   background: #f1f1f1;
-  border-radius: 100px;
-  margin-bottom: 5rem;
+  border-radius: 50px;
+  margin: 30px;
 }
 
 .card h3 {
@@ -350,7 +359,7 @@ section {
 }
 
 .card img {
-  height: 250px;
+  height: 200px;
 }
 
 .card > div {
@@ -460,9 +469,13 @@ section {
 
 footer {
   background-color: #090909;
-  color: #007bff;
+  color: #ffffff;
   padding: 2rem 0rem 2rem;
   margin-top: 0;
+}
+h3{
+  display: grid;
+  justify-content: center;
 }
 
 footer a {
